@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ruthie&display=swap);
+
+body {
+    background: gray;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ruthie', handwriting;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1600px;
+    height: 1500px;
+    background: white;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1600px;
+    height: 150px;
+    background: #F2EAEA;
+    gap: 800px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ellipse-group {
+    display: flex;
+    align-self: center;
+    justify-content: start;
+    width: 110px;
+    height: 110px;
+}
+
+.ellipse-one {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(248, 119, 119, 0.50);
+    border-radius: 50%;
+}
+
+.ellipse-two {
+    position: absolute;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: #F87777;
+    border-radius: 50%;
+}
+
+.ellipse-one:nth-child(1) {}
+
+.ellipse-two:nth-child(1) {}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+}
+
+.left-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.leter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0D0D0C;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.name {
+    color: #0D0D0C;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lead-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Roboto', Flex;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.lead-text span {
+    color: gray;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgb(204, 244, 23);
+    min-width: 90%;
+    min-height: 50px;
+}
+
+.list-wrapper {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    width: 90%;
+    height: 30px;
+}
+
+.text {
+    text-align: center;
+    height: 30px;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.delete {
+    background: red;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.task-row {
+    display: flex;
+    gap: 20px;
+    background: gray;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1470px;
+    height: 970px;
+    border-radius: 10px;
+    background: #ffa200;
+}
+
+.add-tasks {
+    width: 60px;
+    height: 40px;
+    border-radius: 0px 9px 9px 0px;
+    background: #5C9967;
+    font-size: 30px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    margin-top: 30px;
+    width: 1600px;
+    height: 150px;
+    background: #F2EAEA;
+}
+
+.upcom {
+    color: #0A142F;
+    text-align: center;
+    font-family: Actor;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.social-media {
+    width: 300px;
+    height: 50px;
+}
+
+.task {
+    width: 400px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid rgba(177, 177, 177, 0.40);
+    background: #DBE2EF;
+}
