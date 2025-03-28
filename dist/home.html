@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vista Lab</title>
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    <!-- Шапка сайту -->
+    <header>
+      <div class="container header-container">
+        <div class="logo"><img src="./images/website_5240427.png" style="width: 70px;" alt=""></div>
+        <button class="mobile-menu-btn">☰</button>
+        <nav id="main-nav">
+          <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Головний банер -->
+    <section class="hero">
+      <div class="container">
+        <h1>Ласкаво просимо на наш сайт</h1>
+        <p></p>
+        <a href="index.html" class="btn">перейти до календаря</a>
+      </div>
+    </section>
+
+    <!-- Основні можливості/переваги -->
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">Наші переваги</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Швидкість</h3>
+            <p>Ми надаємо послуги у найкоротші терміни без втрати якості.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Надійність</h3>
+            <p>Наші рішення протестовані часом та тисячами клієнтів.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💎</div>
+            <h3>Якість</h3>
+            <p>Використовуємо тільки перевірені технології та матеріали.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Підвал -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Про компанію</h3>
+            <ul>
+              <li><a href="#">Історія</a></li>
+              <li><a href="#">Команда</a></li>
+              <li><a href="#">Вакансії</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Контакти</h3>
+            <ul>
+              <li><a href="tel:+380123456789">+38 (012) 345-67-89</a></li>
+              <li><a href="mailto:info@example.com">info@example.com</a></li>
+              <li>м. Київ, вул. Прикладна, 123</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Соціальні мережі</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="upcom" id="copyText">
+            © 2024 Aqeel Shahzad. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Мобільне меню
+      document
+        .querySelector(".mobile-menu-btn")
+        .addEventListener("click", function () {
+          document.getElementById("main-nav").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
